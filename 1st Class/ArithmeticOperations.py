@@ -1,0 +1,7 @@
+print("Arithmetic operations:- ")
+a = float(input("Please enter the first operand: "))
+b = float(input("Please enter the second operand: "))
+print("1.Addition =",a+b)
+print("2.Subtraction =",a-b)
+print("3.Multiplication =",a*b)
+print("4.Division =",a/b)
