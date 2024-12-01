@@ -1,0 +1,8 @@
+input_string = input("Enter a comma-separated string: ")
+elements = input_string.split(',')
+letters_uppercase = list(map(lambda x: x.upper(), filter(lambda x: x.isalpha(), elements)))
+print("Uppercase letters:", letters_uppercase)
+squares_of_digits = list(map(lambda x: int(x)**2, filter(lambda x: x.isdigit(), elements)))
+print("Squares of digits:", squares_of_digits)
+alphanumeric = list(filter(lambda x: x.isalnum(), elements))
+print("Alphanumeric characters:", alphanumeric)
